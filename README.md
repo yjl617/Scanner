@@ -1,1 +1,1 @@
-# Scanner
+# Stone Scanner

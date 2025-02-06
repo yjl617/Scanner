@@ -44,20 +44,27 @@ width:150px;height:50px;
 }
     </style>
 	<style>
+  /* WhatsApp 按钮固定在右下角 */
   .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1000;
-      width: 60px;
+      position: fixed; /* 固定在屏幕上，不随滚动条移动 */
+      bottom: 20px; /* 距离底部 20px */
+      right: 20px; /* 距离右侧 20px */
+      z-index: 1000; /* 确保不被其他元素遮挡 */
+      width: 60px; /* 按钮大小 */
       height: 60px;
   }
 
   .whatsapp-float img {
       width: 100%;
       height: auto;
-      border-radius: 50%;
-      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      border-radius: 50%; /* 圆形按钮 */
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* 添加阴影效果 */
+      transition: transform 0.3s ease-in-out;
+  }
+
+  /* 鼠标悬停时，按钮放大 */
+  .whatsapp-float img:hover {
+      transform: scale(1.1);
   }
 </style>
     <script type="application/ld+json">

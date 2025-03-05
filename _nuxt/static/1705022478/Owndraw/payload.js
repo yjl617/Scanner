@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/owndraw", {data:[{}],fetch:{},mutations:void 0});

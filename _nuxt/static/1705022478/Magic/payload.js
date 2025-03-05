@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/magic", {data:[{}],fetch:{},mutations:void 0});

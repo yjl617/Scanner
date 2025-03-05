@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/cutting", {data:[{}],fetch:{},mutations:void 0});

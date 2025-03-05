@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/scanner", {data:[{}],fetch:{},mutations:void 0});
